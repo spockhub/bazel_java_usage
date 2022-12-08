@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 import org.junit.platform.console.ConsoleLauncher;
+/**
+ * @author spock
+ */
 public class JUnit5Launcher {
 
     public static void main(String[] args) {

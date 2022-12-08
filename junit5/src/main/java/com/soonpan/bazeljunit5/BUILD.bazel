@@ -7,7 +7,7 @@ java_library(
 
 java_binary(
     name = "hello",
-    main_class = "bazeljunit4",
+    main_class = "com.soonpan.bazeljunit5.Hello5",
     visibility = ["//visibility:public"],
     runtime_deps = [
         ":hellolib",

@@ -1,4 +1,4 @@
-package junit5.src.main.java.com.soonpan.bazeljunit5;
+package com.soonpan.bazeljunit5;
 
 /**
  * @author spock

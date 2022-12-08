@@ -1,8 +1,5 @@
 package com.soonpan.bazeljunit5;
 
-
-
-import junit5.src.main.java.com.soonpan.bazeljunit5.Hello5;
 import org.junit.jupiter.api.Test;
 
 
