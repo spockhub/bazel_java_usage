@@ -1,0 +1,9 @@
+java_test(
+    name = "hello_test",
+    srcs = glob(["*.java"]),
+    test_class = "com.soonpan.bazeljunit4.HelloTest",
+    runtime_deps = [
+        "@maven//:junit_junit",
+    ],
+    deps = ["//junit4/src/main/java/com/soonpan/bazeljunit4:hellolib"],
+)

@@ -1,4 +1,4 @@
-package com.soonpan.bazel;
+package com.soonpan.bazeljunit4;
 
 import org.junit.Test;
 /**

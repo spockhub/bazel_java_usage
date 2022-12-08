@@ -1,4 +1,4 @@
-package com.soonpan.bazel;
+package com.soonpan.bazeljunit4;
 
 /**
  * @author spock
@@ -8,6 +8,6 @@ public class Hello {
         System.out.println("Hello world!!!!");
     }
     public void sayHello(){
-        System.out.println("hhhhhhhhhh");
+        System.out.println("Hello world!!!!!!!!!!!!!!!");
     }
 }
