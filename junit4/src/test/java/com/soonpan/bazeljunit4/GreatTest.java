@@ -5,10 +5,11 @@ import org.junit.Test;
 /**
  * @author spock
  */
-public class HelloTest {
+public class GreatTest {
     @Test
     public void testMain() {
-        Hello hello = new Hello();
-        hello.sayHello();
+        Great great = new Great();
+        great.sayGreat();
+        great.sayGreat();
     }
 }

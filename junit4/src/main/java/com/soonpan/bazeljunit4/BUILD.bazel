@@ -1,5 +1,5 @@
 java_library(
-    name = "hellolib",
+    name = "bazel_junit4_lib",
     srcs = glob(["*.java"]),
     visibility = ["//visibility:public"],
     deps = [],
@@ -10,6 +10,15 @@ java_binary(
     main_class = "com.soonpan.bazeljunit4.Hello",
     visibility = ["//visibility:public"],
     runtime_deps = [
-        ":hellolib",
+        ":bazel_junit4_lib",
+    ],
+)
+
+java_binary(
+    name = "great",
+    main_class = "com.soonpan.bazeljunit4.Great",
+    visibility = ["//visibility:public"],
+    runtime_deps = [
+        ":bazel_junit4_lib",
     ],
 )

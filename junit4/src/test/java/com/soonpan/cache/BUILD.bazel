@@ -1,0 +1,9 @@
+java_test(
+    name = "cache_test",
+    srcs = ["CacheTest.java"],
+    test_class = "com.soonpan.cache.CacheTest",
+    runtime_deps = [
+        "@maven//:junit_junit",
+    ],
+    deps = ["//junit4/src/main/java/com/soonpan/cache:bazel_cache_lib"],
+)
