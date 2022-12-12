@@ -74,6 +74,7 @@ contrib_rules_jvm_setup()
 
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
+# 有缓存 ，不建议用分支，建议使用commit_id或者tag
 git_repository(
     name = "rules_test",
     commit = "af0f1f1d742d1b21d94f4e30a07e2320d9b95c75",
