@@ -71,3 +71,11 @@ contrib_rules_jvm_deps()
 load("@contrib_rules_jvm//:setup.bzl", "contrib_rules_jvm_setup")
 
 contrib_rules_jvm_setup()
+
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+
+git_repository(
+    name = "rules_test",
+    commit = "af0f1f1d742d1b21d94f4e30a07e2320d9b95c75",
+    remote = "https://github.com/spockhub/rules_test.git",
+)
