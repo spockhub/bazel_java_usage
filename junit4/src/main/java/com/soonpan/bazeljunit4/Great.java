@@ -1,5 +1,8 @@
 package com.soonpan.bazeljunit4;
 
+import javafx.util.Pair;
+
+
 /**
  * @author spock
  */
@@ -9,6 +12,7 @@ public class Great {
         great.sayGreat();
     }
     public void sayGreat(){
+        Pair par = new Pair();
         System.out.println("This is great!!!");
     }
 }

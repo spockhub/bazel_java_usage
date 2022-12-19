@@ -30,6 +30,7 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 maven_install(
     artifacts = [
         "junit:junit:4.13.1",
+        "org.openjfx:javafx-base:11",
         "androidx.test.espresso:espresso-core:3.1.1",
         "org.hamcrest:hamcrest-library:2.2",
         "commons-io:commons-io:2.8.0",

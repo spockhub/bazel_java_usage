@@ -2,7 +2,9 @@ java_library(
     name = "bazel_junit4_lib",
     srcs = glob(["*.java"]),
     visibility = ["//visibility:public"],
-    deps = [],
+    deps = [
+        "@maven//:org_openjfx_javafx_base",
+    ],
 )
 
 java_binary(
